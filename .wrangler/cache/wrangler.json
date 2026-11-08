@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "my-saas-api",
+  "main": "src/index.ts",
+  "compatibility_date": "2024-09-23",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "my-saas-db",
+      "database_id": "035e1ce2605e80e6947f71c180911833"
+    }
+  ]
+}
